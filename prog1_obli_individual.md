@@ -7,6 +7,7 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar una prenda a mi ropero**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de una prenda y agregarla a mi ropero clickeando en el boton "Guardar"
@@ -14,6 +15,7 @@ Historias de Usuario:
       - La prenda debe tener un tipo (calzado, pantalon, remera, etc)
       - La prenda debe tener una temporada
       - La prenda debe tener una marca
+
 **Como usuario quiero poder ver todas las prendas de mi ropero**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre de la prenda
@@ -21,18 +23,22 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver la temporada de la prenda
     - Cuando veo el listado, debo poder ver la marca de la prenda
     - Cuando agrego una prenda, el listado se debe actualizar y mostrar la nueva prenda como parte de la lista de todas las prendas
+
 **Como usuario quiero poder eliminar una prenda de mi ropero**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar una prenda
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, la prenda debe ser eliminada del ropero.
+
 **Como usuario quiero poder editar una prenda de mi ropero**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para editar una prenda
     - Cuando clickeo uno de esos links o botones, el formulario lateral debe ser completado con los datos de la prenda que quiero editar, y un boton de guardar debe aparecer
     - Cuando hago click en guardar, la prenda debe ser actualizada con sus nuevos datos en el listado
+
 **Como usuario, cuando estoy en el listado de prendas, quiero poder filtrar las prendas por tipo**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los tipos de prenda y me permita seleccionar uno, al seleccionar el tipo de prenda, solo deben quedar visibles en el listado aquellas prendas del tipo que seleccioné
+
 **Como usuario quiero poder ver un resumen de las prendas que tengo en mi ropero**
   - Criterio de Aceptacion:
     - Debo poder ver cuantas prendas tengo en total
@@ -51,6 +57,7 @@ La Interfaz de Usuario se realizará teniendo en cuenta que en un hogar el núme
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar una mascota a mi hogar****
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de una mascota y agregarla a mi hogar clickeando en el boton "Guardar"
@@ -58,6 +65,7 @@ Historias de Usuario:
       - La mascota debe tener una especie (perro, gato, etc)
       - La mascota debe tener una raza
       - La mascota debe tener una fecha de nacimiento
+
 **Como usuario quiero poder agregar una observación a una mascota**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo en el panel lateral, un formulario donde pueda ingresar una observación sobre una mascota
@@ -65,9 +73,11 @@ Historias de Usuario:
       - La observación debe tener un titulo
       - La observación debe tener un detalle
       - La observación debe tener el peso de la mascota en ese momento
+
 **Como usuario quiero poder filtrar las observaciones por mascota**
   - Criterio de Aceptacion:
     - Cuando veo el listado de observaciones, debo poder ver un control que liste las mascotas y me permita seleccionar una, al seleccionar una mascota, solo deben quedar visibles en el listado aquellas observaciones de la mascota que seleccioné
+
 **Como usuario quiero poder ver un resumen de las observaciones de todas las msacotas**
   - Criterio de Aceptacion:
     - Debo poder ver cuantas observaciones tengo en total
@@ -89,6 +99,7 @@ const EQUIPOS = ["Los 5 fantásticos", "Peñarol Jrs", "Rocabili", "Primeras nup
 
 Historias de Usuario:
 
+
 **Como usuario quiero poder agregar un jugador a un equipo**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en el panel lateral, un formulario donde pueda pueda ingresar todos los datos de un jugador y agregarlo a un equipo clickeando en el boton "Guardar"
@@ -96,10 +107,12 @@ Historias de Usuario:
       - El jugador debe tener una posición en la que juega (arquero, defensor, mediocampista, delantero)
       - El jugador debe tener una edad
       - El jugador debe tener un equipo al que pertenece (seleccionado del listado de equipos)
+
 **Como usuario quiero eliminar un jugador**
   - Criterio de Aceptacion:
     - Cuando veo el listado de jugadores, debo ver links o botones para eliminar un jugador
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el jugador debe ser eliminado del listado.
+
 **Como usuario quiero poder ver todos los jugadores de un equipo**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del jugador
@@ -107,9 +120,11 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver la edad del jugador
     - Cuando veo el listado, debo poder ver el equipo al que pertenece el jugador
     - Cuando agrego un jugador, el listado se debe actualizar y mostrar el nuevo jugador como parte de la lista de todos los jugadores
+
 **Como usuario quiero poder filtrar los jugadores por posición**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste las posiciones de los jugadores y me permita seleccionar una, al seleccionar la posición, solo deben quedar visibles en el listado aquellos jugadores de la posición que seleccioné
+
 **Como usuario quiero poder ver un resumen la cantidad de jugadores por posicion de cada equipo**
   - Criterio de Aceptacion:
     - En una tabla de resumen, debo poder ver una fila por equipo, y en cada fila, los siguientes datos:
@@ -134,6 +149,7 @@ const TIPOS_COMIDA = ["Desayuno", "Almuerzo", "Merienda", "Cena"];
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar un combo de comida y ejercicio a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de los combos y agregarlo a mi lista clickeando en el boton "Guardar"
@@ -144,6 +160,7 @@ Historias de Usuario:
       - El combo debe tener cuantas calorías debería quemar el ejercicio
       - El combo debe tener un nombre de ejercicio
       - El combo debe tener una descripción de ejercicio
+
 **Como usuario quiero poder ver todos los combos de comida y ejercicio de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del combo
@@ -152,18 +169,22 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver el nombre de ejercicio del combo
     - Cuando veo el listado, debo poder ver la descripción de ejercicio del combo
     - Cuando agrego un combo, el listado se debe actualizar y mostrar el nuevo combo como parte de la lista de todos los combos
+
 **Como usuario quiero poder eliminar un combo de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar un combo
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el combo debe ser eliminado de la lista.
+
 **Como usuario quiero poder editar un combo de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para editar un combo
     - Cuando clickeo uno de esos links o botones, el formulario lateral debe ser completado con los datos del combo que quiero editar, y un boton de guardar debe aparecer
     - Cuando hago click en guardar, el combo debe ser actualizado con sus nuevos datos en el listado
+
 **Como usuario, cuando estoy en el listado de combos, quiero poder filtrar los combos por tipo de comida**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los tipos de comida y me permita seleccionar uno, al seleccionar el tipo de comida, solo deben quedar visibles en el listado aquellos combos del tipo que seleccioné
+
 **Como usuario quiero poder ver un resumen de los combos que tengo en mi lista**
   - Criterio de Aceptacion:
     - Debo poder ver cuantos combos tengo en total
@@ -176,7 +197,9 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 El apuntador de estadísticas tiene como principal objetivo permitir el ingreso de datos de forma rápida y sencilla, ya que quien lo utilice estará viendo el combate en vivo y no podrá distraerse con la interfaz. Debido a esto se espera que si bien se puedanutilizar botones, la mayor parte de la interfaz sea manejable con el teclado.
 
 Las estadísticas a recabar por el programa son:
+
 **Golpes significantes conectados por el combatiente A**
+
 **Golpes significantes conectados por el combatiente B**
 
 Un total de 2 estadísticas, a las que se le sumarán teclas para empezar y terminar cada round, y una tecla para terminar el combate.
@@ -184,33 +207,42 @@ Un total de 2 estadísticas, a las que se le sumarán teclas para empezar y term
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder ingresar los nombres de los combatientes**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver dos cajas para ingresar texto, donde pueda escribir el nombre del combatiente A y el combatiente B
+
 **Como usuario quiero poder ver un historial de todos los eventos del combate**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un listado de eventos, donde se muestre el tiempo en el que ocurrió el evento, y cual fue el evento
+
 **Como usuario, quiero ver un boton para marcar el inicio de un round**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Empezar Round", al clickear en el boton se debe registrar en un historial de eventos el inicio del round
+
 **Como usuario, quiero poder ingresar los golpes conectados por el combatiente A**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Golpe combatiente A", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el nombre del combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario, quiero poder ingresar los golpes conectados por el combatiente B**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Golpe combatiente B", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el nombre del combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario quiero ver todo el tiempo la suma de todos los golpes conectados por cada combatiente**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de golpes conectados por el combatiente A
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de golpes conectados por el combatiente B
+
 **Como usuario quiero ver todo el tiempo un contador con el round actual**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un contador que muestre el round actual
+
 **Como usuario quiero poder ingresar un golpe conectado por el combatiente A presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un golpe conectado por el combatiente A
+
 **Como usuario quiero poder ingresar un golpe conectado por el combatiente B presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un golpe conectado por el combatiente B
@@ -222,9 +254,13 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 El apuntador de estadísticas tiene como principal objetivo permitir el ingreso de datos de forma rápida y sencilla, ya que quien lo utilice estará viendo el partido en vivo y no podrá distraerse con la interfaz. Debido a esto se espera que si bien se puedanutilizar botones, la mayor parte de la interfaz sea manejable con el teclado.
 
 Las estadísticas a recabar por el programa son:
+
 **Tiros a puerta del equipo A**
+
 **Tiros a puerta del equipo B**
+
 **Pases exitosos del equipo A**
+
 **Pases exitosos del equipo B**
 
 Un total de 4 estadísticas.
@@ -232,45 +268,57 @@ Un total de 4 estadísticas.
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder ingresar los nombres de los equipos del partido**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver dos cajas para ingresar texto, donde pueda escribir el nombre de los equipos A y B
+
 **Como usuario quiero poder ver un historial de todos los eventos del partido**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un listado de eventos, donde se muestre el tiempo en el que ocurrió el evento, y cual fue el evento
+
 **Como usuario, quiero poder ingresar los tiros a puerta del equipo A**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Tiro a puerta equipo A", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario, quiero poder ingresar los tiros a puerta del equipo B**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Tiro a puerta equipo B", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario, quiero ingresar los pases exitosos del equipo A**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Pase exitoso equipo A", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario, quiero ingresar los pases exitosos del equipo B**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un boton que diga "Pase exitoso equipo B", al clickear el boton se debe registrar en el historial de eventos
     - El historial de eventos debe guardar el combatiente que lo conecta, y el tiempo en el que se conecta
+
 **Como usuario quiero ver todo el tiempo la suma de todos los tiros a puerta de cada equipo**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de tiros a puerta del equipo A
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de tiros a puerta del equipo B
+
 **Como usuario quiero ver todo el tiempo la suma de todos los pases exitosos de cada equipo**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de pases exitosos del equipo A
     - En la pagina principal, debo poder ver un contador que muestre la cantidad de pases exitosos del equipo B
+
 **Como usuario quiero poder ingresar un tiro a puerta del equipo A presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un tiro a puerta del equipo A
+
 **Como usuario quiero poder ingresar un tiro a puerta del equipo B presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un tiro a puerta del equipo B
+
 **Como usuario quiero poder ingresar un pase exitoso del equipo A presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un pase exitoso del equipo A
+
 **Como usuario quiero poder ingresar un pase exitoso del equipo B presionando una tecla**
   - Criterio de Aceptacion:
     - En la pagina principal, debo poder presionar una tecla para registrar un pase exitoso del equipo B
@@ -282,27 +330,32 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar un equipo al torneo**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de un equipo y agregarlo al torneo clickeando en el boton "Guardar"
       - El equipo debe tener un nombre
       - El equipo debe tener una ciudad
       - El equipo debe tener una fecha de fundación
+
 **Como usuario quiero poder ver todos los equipos del torneo**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del equipo
     - Cuando veo el listado, debo poder ver la ciudad del equipo
     - Cuando veo el listado, debo poder ver la fecha de fundación del equipo
     - Cuando agrego un equipo, el listado se debe actualizar y mostrar el nuevo equipo como parte de la lista de todos los equipos
+
 **Como usuario quiero poder eliminar un equipo del torneo**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar un equipo
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el equipo debe ser eliminado del torneo.
+
 **Como usuario, cuando quiero organizar un torneo que comienza con una clasificacion por grupos, quiero que el programa me genere aleatoriamente la cantidad de grupos que yo indique**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un formulario donde pueda ingresar la cantidad de grupos que quiero que se generen
     - Cuando hago click en "Generar Grupos", el programa debe generar la cantidad de grupos que indiqué, y asignar aleatoriamente los equipos a cada grupo
     - Cada grupo debe estar identificado con una letra, y cada equipo debe estar asignado a un grupo
+
 **Como usuario, cuando quiero organizar un torneo que comienza directamente con eliminación directa, quiero que el programa me genere los partidos de la primera ronda**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un boton que diga "Generar Partidos por elminiación directa"
@@ -317,6 +370,7 @@ En la clase se discutió con el alumno su interés en realizar un proyecto alred
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar un ejercicio a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de un ejercicio y agregarlo a mi lista clickeando en el boton "Guardar"
@@ -325,6 +379,7 @@ Historias de Usuario:
       - El ejercicio debe tener una cantidad de repeticiones
       - El ejercicio debe tener una cantidad de series
       - El ejercicio debe tener una cantidad de peso
+
 **Como usuario quiero poder ver todos los ejercicios de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del ejercicio
@@ -333,13 +388,16 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver la cantidad de series del ejercicio
     - Cuando veo el listado, debo poder ver la cantidad de peso del ejercicio
     - Cuando agrego un ejercicio, el listado se debe actualizar y mostrar el nuevo ejercicio como parte de la lista de todos los ejercicios
+
 **Como usuario quiero poder eliminar un ejercicio de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar un ejercicio
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el ejercicio debe ser eliminado de la lista.
+
 **Como usuario, quiero ver un historial de ejercicios realizados**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un listado de ejercicios, donde se muestre el dia en el que ocurrió el ejercicio, y cual fue el ejercicio
+
 **Como usuario, quiero poder agregar un ejercicio realizado al historial**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un boton que diga "Agregar ejercicio realizado", al clickear en el boton se debe registrar en un historial de ejercicios el ejercicio realizado
@@ -352,6 +410,7 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario, quiero poder ver un listado de pedidos**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un listado de pedidos con las siguientes columnas:
@@ -362,6 +421,7 @@ Historias de Usuario:
       - Total del pedido
       - Entregado (si/no)
       - Fecha y hora del pedido
+
 **Como usuario, quiero poder agregar un pedido**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un formulario donde pueda ingresar todos los datos de un pedido y agregarlo a la lista de pedidos
@@ -371,12 +431,15 @@ Historias de Usuario:
       - El pedido debe tener una lista de productos pedidos
       - El pedido debe tener un total
       - El pedidio debe guardar la fecha y hora actual al momento de ingresarlo, pero no pedirselo al usuario
+
 **Como usuario, quiero poder marcar un pedido como entregado**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un boton que diga "Marcar como entregado", al clickear en el boton se debe cambiar el estado del pedido a entregado
+
 **Como usuario, quiero que los pedidos ingresados esten ordenados por fecha de ingreso, el mas reciente primero**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver los pedidos ordenados por fecha de ingreso, el mas reciente primero
+
 **Como usuario, quiero poder filtrar los pedidos por si fueron entregados o no**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un control que me permita seleccionar si quiero ver todos los pedidos, solo los entregados, o solo los no entregados
@@ -389,13 +452,16 @@ Durante clase se discutió con el alumno su interés en realizar un proyecto alr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder definir los horarios en que la cancha esta abierta para reservas**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un formulario donde pueda ingresar los horarios de apertura y cierre de la cancha
     - El horario de apertura y cierre sera el mismo para todos los dias de la semana
+
 **Como usuario quiero poder definir cuanto tiempo en minutos dura una reserva**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un formulario donde pueda ingresar la duracion de una reserva en minutos
+
 **Como usuario quiero poder ver una tabla con los horarios disponibles para reservar en los siguientes 15 dias**
   - Criterio de Aceptacion:
     - Luego de que la configuracion de horarios y tiempos de reservas esta hecho, quiero ver un boton que me permita bloquear las configuraciones
@@ -404,11 +470,13 @@ Historias de Usuario:
     - Cada celda de la tabla debe mostrar si el horario esta disponible o no
     - En la cabecera de las columnas se debe mostrar el dia de la semana y la fecha
     - Los sabados y domingos se deben resaltar de alguna forma para indicar que son fin de semana
+
 **Como usuario quiero poder reservar un horario**
   - Criterio de Aceptacion:
     - En la pantalla principal, en la tabla de horarios disponibles, cada celda debe tener un boton que sea "reservar"
     - Cuando apreto uno de esos botones, el programa me debe pedir el nombre de la reserva, y si lo ingreso, la celda debe cambiar de color para indicar que esta reservada
     - Luego de reservada, la celda debe mostrar el nombre de la reserva
+
 **Como usuario quiero poder cancelar una reserva**
   - Criterio de Aceptacion:
     - En la pantalla principal, en la tabla de horarios reservados, cada celda reservada debe tener un boton que sea "cancelar"
@@ -422,12 +490,14 @@ Durante la clase, se conversó con el alumno sobre su interés en realizar un pr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como coach quiero poder agregar una nota a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda ingresar todos los datos de una nota y agregarla a mi lista clickeando en el boton "Guardar"
       - La nota debe tener un detalle
       - La nota debe tener un tipo (positiva, negativa, neutral)
       - La nota debe tener un jugador
+
 **Como coach quiero poder ver todas las notas de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el detalle de la nota
@@ -435,23 +505,28 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver el jugador al que se le asignó la nota
     - Cuando veo el listado, debo poder ver si ya marque la nota como comentada o no
     - Cuando agrego una nota, el listado se debe actualizar y mostrar la nueva nota como parte de la lista de todas las notas
+
 **Como coach quiero poder eliminar una nota de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar una nota
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, la nota debe ser eliminada de la lista.
+
 **Como coach quiero poder marcar una nota como comentada**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para marcar una nota como comentada
     - Cuando clickeo uno de esos links o botones, la nota debe cambiar de color para indicar que ya fue comentada
     - Opcional: Que el coach pueda marcar la nota como comentada haciendo swipe right sobre la nota
+
 **Como coach quiero poder filtrar las notas por jugador**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los jugadores y me permita seleccionar uno, al seleccionar el jugador, solo deben quedar visibles en el listado aquellas notas del jugador que seleccioné 
     - Debo poder aplicar mas de un filtro a la vez
+
 **Como coach quiero poder filtrar las notas por tipo**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los tipos de notas y me permita seleccionar uno, al seleccionar el tipo de nota, solo deben quedar visibles en el listado aquellas notas del tipo que seleccioné
     - Debo poder aplicar mas de un filtro a la vez
+
 **Como coach quiero poder filtrar las notas por comentadas o no comentadas**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que me permita seleccionar si quiero ver todas las notas, solo las comentadas, o solo las no comentadas
@@ -472,22 +547,26 @@ const CATEGORIAS_EJERCICIOS = ["Físico", "Técnico", "Táctico", "Estratégico"
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero poder agregar un ejercicio a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de un ejercicio y agregarlo a mi lista clickeando en el boton "Guardar"
       - El ejercicio debe tener un nombre
       - El ejercicio debe tener una descripción
       - El ejercicio debe tener una categoría
+
 **Como usuario quiero poder ver todos los ejercicios de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del ejercicio
     - Cuando veo el listado, debo poder ver la descripción del ejercicio
     - Cuando veo el listado, debo poder ver la categoría del ejercicio
     - Cuando agrego un ejercicio, el listado se debe actualizar y mostrar el nuevo ejercicio como parte de la lista de todos los ejercicios
+
 **Como usuario quiero poder eliminar un ejercicio de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar un ejercicio
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el ejercicio debe ser eliminado de la lista.
+
 **Como usuario quiero poder generar una combinacion de ejercicios para cada dia de la semana**
   - Criterio de Aceptacion:
     - En la pantalla principal, debo poder ver un boton que diga "Generar Planificación Semanal"
@@ -503,11 +582,13 @@ Durante la clase, se conversó con el alumno sobre su interés en realizar un pr
 ### Requerimientos
 
 Historias de Usuario:
+
 **Como usuario quiero que el programa me pida que ingrese una llave de encriptación al iniciar**
   - Criterio de Aceptacion:
     - Al iniciar el programa, se debe pedir al usuario que ingrese una llave de encriptación
     - La llave de encriptación debe ser guardada en memoria y utilizada para encriptar y desencriptar las contraseñas
     - Nota el usuario deberá anotar esta llave en un lugar seguro, ya que si la pierde no podrá recuperar las contraseñas
+
 **Como usuario quiero poder agregar una contraseña a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de una contraseña y agregarla a mi lista clickeando en el boton "Guardar"
@@ -516,13 +597,16 @@ Historias de Usuario:
       - La contraseña debe tener un usuario
       - La contraseña debe tener una contraseña
     - El usuario y la contraseña deben encriptarse utilizando un cifrado XOR, donde la clave es aquella ingresada por el usuario al iniciar el programa
+
 **Como usuario quiero poder ver todas las contraseñas de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver el nombre del servicio
     - Cuando veo el listado, debo ver un botón que diga "Mostrar contraseña", al clickear en el boton se debe mostrar el nombre de usuario y la contraseña en un alert
+
 **Como usuario quiero poder filtrar la lista de contraseñas por nivel de seguridad**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los niveles de seguridad y me permita seleccionar uno, al seleccionar el nivel de seguridad, solo deben quedar visibles en el listado aquellas contraseñas del nivel que seleccioné
+
 **Como usuario quiero poder eliminar una contraseña de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar una contraseña
@@ -564,6 +648,7 @@ const TIPOS_VIAJE = [
 
 Historias de Usuario:
 
+
 **Como usuario quiero poder agregar un camión a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de un camión y agregarlo a mi lista clickeando en el boton "Guardar"
@@ -573,6 +658,7 @@ Historias de Usuario:
       - El camión debe tener un año de fabricación
       - El camión debe tener un costo por kilometro
       - El camión debe tener una capacidad de carga expresada en kilogramos
+
 **Como usuario quiero poder ver todos los camiones de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver la patente del camión
@@ -582,10 +668,12 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver el costo por kilometro del camión
     - Cuando veo el listado, debo poder ver la capacidad de carga del camión
     - Cuando agrego un camión, el listado se debe actualizar y mostrar el nuevo camión como parte de la lista de todos los camiones
+
 **Como usuario quiero poder eliminar un camión de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo ver links o botones para eliminar un camión
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, el camión debe ser eliminado de la lista.
+
 **Como usuario quiero poder agregar un viaje a mi lista**
   - Criterio de Aceptacion:
     - En la pantalla principal debo poder ver todo el tiempo, en la barra lateral, un formulario donde pueda pueda ingresar todos los datos de un viaje y agregarlo a mi lista clickeando en el boton "Guardar"
@@ -594,6 +682,7 @@ Historias de Usuario:
       - El viaje debe tener un tipo de viaje
       - El viaje debe tener una fecha
     - El costo del viaje debe ser calculado en base a la distancia y el tipo de viaje, utilizando la tabla de costos
+
 **Como usuario quiero poder ver todos los viajes de mi lista**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver la patente del camión
@@ -602,9 +691,11 @@ Historias de Usuario:
     - Cuando veo el listado, debo poder ver la fecha del viaje
     - Cuando veo el listado, debo poder ver el costo del viaje
     - Cuando agrego un viaje, el listado se debe actualizar y mostrar el nuevo viaje como parte de la lista de todos los viajes
+
 **[OPCIONAL] Como usuario quiero poder filtrar los viajes por camión**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los camiones y me permita seleccionar uno, al seleccionar el camión, solo deben quedar visibles en el listado aquellos viajes del camión que seleccioné
+
 **[OPCIONAL] Como usuario quiero poder filtrar los viajes por tipo de viaje**
   - Criterio de Aceptacion:
     - Cuando veo el listado, debo poder ver un control que liste los tipos de viaje y me permita seleccionar uno, al seleccionar el tipo de viaje, solo deben quedar visibles en el listado aquellos viajes del tipo que seleccioné
