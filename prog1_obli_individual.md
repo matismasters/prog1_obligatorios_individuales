@@ -1,6 +1,6 @@
 # Obligatorio Individual Analista Programador CTC Programación 1
 
-## Fausto Etchecopar
+## Fausto
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de mejorar la eficiencia de la gestión de la ropa en su ropero. Este proyecto, si bien en esta instancia será acotado, tiene grandes posibilidades de crecimiento si se buscara llevarlo a una aplicación web multi-usuarios.
 
@@ -46,7 +46,7 @@ Historias de Usuario:
     - Debo poder ver cuantas prendas tengo en total por temporada
     - Debo poder ver cuantas prendas tengo en total por marca
 
-## Matias Bejar
+## Matias 
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de llevar una historia clinica de mascotas. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en veterinarias, hogares, o cualquier establecimiento de cria de animales.
 
@@ -84,7 +84,7 @@ Historias de Usuario:
     - Debo poder ver cuantas observaciones tengo en total por mascota
     - Debo poder ver la última medición de peso de cada mascota
 
-## Simón Chileff
+## Simón
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto sobre futbol. Este proyecto se enfocará en la gestión de los jugadores del equipo, permitiendole a un organizador de torneos tener registrados los jugadores de cada equipo y la posición en la que juegan. Si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en torneos de futbol amateur, campeonatos de futbol 5, etc.
 
@@ -135,7 +135,7 @@ Historias de Usuario:
       - Cantidad de delanteros
       - Cantidad de jugadores en total
 
-## Damasco Ana Laura
+## Ana Laura
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de sugerir ejercicios dependiendo de la comida que se ingiere en cada dia de la semana. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en gimnasios, hogares, o cualquier establecimiento de entrenamiento personalizado.
 
@@ -190,7 +190,7 @@ Historias de Usuario:
     - Debo poder ver cuantos combos tengo en total
     - Debo poder ver cuantos combos tengo en total por tipo de comida
 
-## Santino Capuano
+## Santino C
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de un apuntador de estadísticas en vivo para combates de la UFC. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en gimnasios, hogares, o cualquier establecimiento de entrenamiento personalizado.
 
@@ -247,7 +247,7 @@ Historias de Usuario:
   - Criterio de Aceptación:
     - En la pagina principal, debo poder presionar una tecla para registrar un golpe conectado por el combatiente B
 
-## Santino Ercoli
+## Santino 
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de un apuntador de estadísticas en vivo para partidos de futbol. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en campeonatos amateurs, campeonatos de futbol 5, etc.
 
@@ -323,7 +323,7 @@ Historias de Usuario:
   - Criterio de Aceptación:
     - En la pagina principal, debo poder presionar una tecla para registrar un pase exitoso del equipo B
 
-## Emanuel Giussiano
+## Emanuel
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor de la organización de torneos. Para mantener la complejidad al nivel de este obligatorio, el proyecto se limitará al ingreso de equipos, y la organización de los primeros partidos del torneo entre ellos. El programa permitirá elegir si el torneo va a jugarse por grupos, o llaves(eliminación directa), y como resultado ofrecerá una lista de grupos o una lista de partidos para iniciar la eliminación directa.
 
@@ -363,7 +363,7 @@ Historias de Usuario:
     - Cada partido debe tener un equipo A y un equipo B, y no debe haber equipos repetidos en los partidos
 
 
-## Lucas Gutierrez
+## Lucas
 
 En la clase se discutió con el alumno su interés en realizar un proyecto alrededor del concepto de recomendación de ejercicios, trackeo del progreso, y sugerencias. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso en gimnasios, personal trainers, personas interesadas en hacer ejercicio, o cualquier establecimiento de entrenamiento personalizado.
 
@@ -403,7 +403,7 @@ Historias de Usuario:
     - En la pantalla principal, debo poder ver un boton que diga "Agregar ejercicio realizado", al clickear en el boton se debe registrar en un historial de ejercicios el ejercicio realizado
     - La entrada en el historial de ejercicios debe guardar el nombre del ejercicio, y el dia en el que se realizó
 
-## Gabriel Larrosa
+## Gabriel
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor de la gestión de pedidos telefónicos para un supermercado. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, como sustituto de utilizar lapiz y papel para los mismos, tiene grandes posibilidades de crecimiento como su posible uso en supermercados, almacenes, o cualquier establecimiento de venta de productos.
 
@@ -445,7 +445,7 @@ Historias de Usuario:
     - En la pantalla principal, debo poder ver un control que me permita seleccionar si quiero ver todos los pedidos, solo los entregados, o solo los no entregados
     - Al seleccionar una de las opciones, solo deben quedar visibles en el listado aquellos pedidos que cumplan con la condicion seleccionada
 
-## Juan Lluvieras
+## Juan
 
 Durante clase se discutió con el alumno su interés en realizar un proyecto alrededor de una cancha de futbol 5. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso para otros deportes como padel, tenis, y cualquier otra actividad que requiera la reserva de un espacio.
 
@@ -483,7 +483,7 @@ Historias de Usuario:
     - Cuando apreto uno de esos botones, la celda debe cambiar de color para indicar que esta disponible nuevamente
     - Luego de cancelada, la celda debe volver a mostrar el boton de "reservar"
 
-## Alejo Monteagudo
+## Alejo
 
 Durante la clase, se conversó con el alumno sobre su interés en realizar un proyecto enfocado en torneos de videojuegos. El objetivo del proyecto es asistir a un coach o líder de equipo en la anotación de observaciones durante cada partida. Así, al finalizar la partida, se dispondrá de una lista detallada de aspectos a discutir con el equipo para mejorar su rendimiento.
 
@@ -533,7 +533,7 @@ Historias de Usuario:
     - Al seleccionar una de las opciones, solo deben quedar visibles en el listado aquellas notas que cumplan con la condicion seleccionada
     - Debo poder aplicar mas de un filtro a la vez
 
-## Nicolas Olano
+## Nicolas
 
 Durante la clase, se conversó con el alumno sobre su interés en realizar un proyecto enfocado la panificacion de entrenamientos de fútbol. El objetivo del proyecto es gestionar tener un conjunto de ejercicios y poder armar una planificación semanal de entrenamientos. Se definirá de antemano una lista de 5 categorías de ejercicios, y cada ejercicio pertenecerá a una de estas categorías. Para cada dia de entrenamiento, se seleccionara aleatoriamente un ejercicio de cada categoría. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso por partes de equipos de futbol amateur o profesionales.
 
@@ -575,7 +575,7 @@ Historias de Usuario:
     - Cada ejercicio debe ser seleccionado aleatoriamente de la lista de ejercicios de esa categoría
     - Cada día debe estar identificado con el nombre del dia de la semana, y mostrar el nombre de cada ejercicio seleccionado
 
-## Mateo Quiroga
+## Mateo 
 
 Durante la clase, se conversó con el alumno sobre su interés en realizar un proyecto enfocado en la cyberseguridad y criptografía. El objetivo del proyecto es asistir a un usuario en el almacenamiento de contraseñas. Se espera que el programa permita almacenarlas contraseñas, y recuperarlas. El énfasis esta en guardar las contraseñas de forma segura mediante técnicas sencillas de encriptación. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso por partes de empresas, o usuarios que deseen tener un almacenamiento seguro de sus contraseñas.
 
@@ -612,7 +612,7 @@ Historias de Usuario:
     - Cuando veo el listado, debo ver links o botones para eliminar una contraseña
     - Cuando clickeo uno de esos links o botones, un mensaje de confirmacion debe aparecer, y si lo acepto, la contraseña debe ser eliminada de la lista.
 
-## Alejandra Rabaza
+## Alejandra 
 
 Durante la clase, se conversó con el alumno sobre su interés en realizar un proyecto enfocado en el cálculo de costos e historial de viajes de camiones. El objetivo del proyecto es asistir a un usuario en el cálculo de los costos de un viaje, y llevar un historial de los viajes realizados. Se espera que el programa permita ingresar los datos del camión, los datos de un viaje, y que calcule el costo del mismo, ya sea este de grano o de micro picado. Además, se espera que el programa permita ver un historial de los viajes realizados, y que permita filtrarlos por distintos criterios. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso por partes de empresas de transporte, o usuarios que deseen llevar un registro de sus viajes.
 
@@ -700,7 +700,7 @@ Historias de Usuario:
   - Criterio de Aceptación:
     - Cuando veo el listado, debo poder ver un control que liste los tipos de viaje y me permita seleccionar uno, al seleccionar el tipo de viaje, solo deben quedar visibles en el listado aquellos viajes del tipo que seleccioné
 
-## Julián Vazquez
+## Julián 
 
 Durante la clase se discutió con el alumno su interés en realizar un proyecto alrededor de las finanzas personales. Este proyecto, si bien en esta instancia será acotado al uso de un solo usuario localmente, tiene grandes posibilidades de crecimiento como su posible uso por partes de miles de usuarios interesados en llevar un control de sus gastos e ingresos. Aparte de esto, el sistema tendrá la capacidad de hacer sugerencias con respecto a los ingresos fijos.
 
